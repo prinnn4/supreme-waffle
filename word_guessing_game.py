@@ -4,6 +4,7 @@ import random
 
 # Randomly choose word from wordbank
 def randomanimal():
+    # the potential bug i noticed was taht the randomanimal function doesn't handle newline characters that are present in each line of the wordbank file.
     with open('wordbank.txt','r') as file:
         words = file.readlines()
         return random.choice(words)
