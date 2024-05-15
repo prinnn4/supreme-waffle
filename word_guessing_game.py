@@ -7,7 +7,8 @@ def randomanimal():
     # the potential bug i noticed was taht the randomanimal function doesn't handle newline characters that are present in each line of the wordbank file.
     with open('wordbank.txt','r') as file:
         words = file.readlines()
-        return random.choice(words)
+        return random.choice(words).strip()
+    # get rid of white space from the chosen word
 
 # Test random word
 print(randomanimal())
