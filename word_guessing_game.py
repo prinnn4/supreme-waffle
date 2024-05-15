@@ -11,7 +11,7 @@ def randomanimal():
 # Test random word
 print(randomanimal())
 
-#
+# why did you print randomanimal? 
 
 
 # Give player hint when requested
