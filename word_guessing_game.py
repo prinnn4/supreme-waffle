@@ -14,5 +14,5 @@ print(randomanimal())
 
 # why did you print randomanimal? 
 
-
+# try adding a function that provides a notice of how many words/terms are left in order for them to get the hint at a certain time before running out of tries.
 # Give player hint when requested
